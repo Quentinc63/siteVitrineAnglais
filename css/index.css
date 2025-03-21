@@ -17,6 +17,10 @@
         background-color: var(--color-brown);
         color: var(--color-beige-light);
     }
+
+    .accordion-button:focus {
+        box-shadow: none;
+    }
 }
 
 #hero {
