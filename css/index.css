@@ -1,4 +1,3 @@
-
 .accordion {
     display: flex;
     flex-direction: column;
@@ -29,8 +28,7 @@
 
 #hero {
     background: linear-gradient(rgba(253, 242, 223, 0.6), rgba(253, 242, 223, 0.6)),
-                url('../img/background-hero.jpg') no-repeat center center
-    ;
+        url('../img/background-hero.jpg') no-repeat center center;
     background-size: cover;
 }
 
