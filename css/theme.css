@@ -36,3 +36,6 @@ body {
     }
 }
 
+.slide {
+    min-height: 100vh;
+}
