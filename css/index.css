@@ -1,0 +1,21 @@
+
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    .accordion-item {
+        border-radius: 10px !important;
+    }
+
+    .accordion-button {
+        border-radius: 10px !important;
+        background-color: var(--color-beige);
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: var(--color-brown);
+        color: var(--color-beige-light);
+    }
+}
