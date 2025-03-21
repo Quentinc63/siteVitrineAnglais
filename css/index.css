@@ -33,3 +33,17 @@
     ;
     background-size: cover;
 }
+
+section:not(#hero) {
+    padding-top: 5rem;
+}
+
+#solutions > *{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#solutions > * > img{
+    margin-bottom: 2rem;
+}
